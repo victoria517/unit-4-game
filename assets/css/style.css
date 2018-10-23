@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.display-1 {
+    background-color: black;
+    color: salmon;
+    text-align: center;
+}
+
+#instructions {
+    background-color: blue;
+}
+
+.row {
+    background-color: white;
+}
+
+.col-4 {
+    background-color: blueviolet;
+    height: 150px;
+}
+
+.col-3 {
+    background-color: brown;
+}
+
+#total {
+    background-color: chartreuse;
+    height: 150px;
+}
+
+p {
+    text-align: center;
+}
