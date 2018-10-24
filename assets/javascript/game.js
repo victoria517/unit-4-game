@@ -10,10 +10,10 @@ var startGame = function(){
         $(".crystals").empty();
 
         var images = [
-        "assets/images/blue.png",
+        "assets/images/Blue.png",
         "assets/images/Gem-PNG-Picture.png",
         "assets/images/smallyellow.png",
-        "assets/images/green.png"];
+        "assets/images/Green.png"];
 
         random_result = Math.floor(Math.random() * 101 ) + 19;
 
