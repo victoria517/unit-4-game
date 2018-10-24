@@ -3,37 +3,66 @@
 }
 
 body {
-    background-color: white;
+    background-color: teal;
 }
 
 .display-1 {
     background-color: black;
-    color: salmon;
+    color: bisque;
     text-align: center;
-}
-
-#instructions {
-    background-color: blue;
-}
-
-.row {
-    background-color: white;
-}
-
-.col-4 {
-    background-color: blueviolet;
-    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .col-3 {
-    background-color: brown;
+    text-align: center;
+    color: black;
+    font-weight: 800;
 }
 
-#total {
-    background-color: chartreuse;
+.col-4 {
+    color: black;
+    height: 80px;
+    text-align: center;
+    font-weight: 800;
+}
+.col-5 {
+    text-align: center;
+    color: black;
+    font-weight: 800;
+}
+
+.crystal {
+    height: 200px;
+    width: 200px;
+    border: solid 2px teal;
+    padding: 10px;
+}
+
+.crystals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ranN {
+    text-align: center;
     height: 150px;
+    color: black;
+    font-weight: 800;
 }
 
 p {
     text-align: center;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
 }
+
+/* .surprise {
+    height: 300px;
+    border: solid black 5px;
+    position: absolute;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: none;
+} */
